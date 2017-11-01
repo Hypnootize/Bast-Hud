@@ -504,7 +504,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SpyMarked"
 		"xpos"			"115"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -521,7 +520,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_Parachute"
 		"xpos"			"0"
-		"ypos"			"173"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -537,11 +535,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneStrength"
 		"xpos"			"0"
-		"ypos"			"173"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_strength_hud"
@@ -552,11 +550,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneHaste"
 		"xpos"			"0"
-		"ypos"			"173"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_haste_hud"
@@ -567,11 +565,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneRegen"
 		"xpos"			"0"
-		"ypos"			"173"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_regen_hud"
@@ -582,11 +580,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneResist"
 		"xpos"			"0"
-		"ypos"			"173"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_resist_hud"
@@ -597,11 +595,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneVampire"
 		"xpos"			"0"
-		"ypos"			"173"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_vampire_hud"
@@ -612,11 +610,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneReflect"
 		"xpos"			"0"
-		"ypos"			"173"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_reflect_hud"
@@ -627,11 +625,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RunePrecision"
 		"xpos"			"0"
-		"ypos"			"173"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_precision_hud"
@@ -642,11 +640,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneAgility"
 		"xpos"			"0"
-		"ypos"			"173"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_agility_hud"
@@ -657,12 +655,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneKnockout"
 		"xpos"			"0"
-		"xpos_minmode"	"173"
-		"ypos"			"0"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_knockout_hud"
@@ -673,12 +670,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneKing"
 		"xpos"			"0"
-		"xpos_minmode"	"173"
-		"ypos"			"0"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_king_hud"
@@ -689,12 +685,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RunePlague"
 		"xpos"			"0"
-		"xpos_minmode"	"173"
-		"ypos"			"0"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_plague_hud"
@@ -705,15 +700,62 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneSupernova"
 		"xpos"			"0"
-		"xpos_minmode"	"173"
-		"ypos"			"0"
+		"ypos"			"173"       //180
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
+		"fgcolor"		"TanDark"
+	}
+	
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"0"
+		"ypos"			"173"       //180
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"		//1
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/slowed"
+		"fgcolor"		"TanDark"
+	}
+	
+	"PlayerStatusHookBleedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHookBleedImage"
+		"xpos"			"0"
+		"ypos"			"173"       //180
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"		//1
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/bleed_drop_grapple"
+		"fgcolor"		"TanDark"
+	}
+	
+	"PlayerStatusGasImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusGasImage"
+		"xpos"			"0"
+		"ypos"			"173"       //180
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"		//1
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
 }
