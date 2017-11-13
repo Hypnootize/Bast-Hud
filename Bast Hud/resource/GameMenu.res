@@ -9,30 +9,13 @@
 	{
 		"command" "engine connect [IP SERVER]"
 	}
-	"CasualButton"
-	{
-		"label" "Play Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-	}
-	"MvMButton"
-	{
-		"label" "Play MvM" 
-		"command" "play_mvm"
-		"subimage" "glyph_multiplayer"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_multiplayer"
-	}
 	"ServerBrowserButton"
 	{
-		"label"			"Servers"
-		"command"		"OpenServerBrowser"
-		"subimage" 		""
-	}
+		"label" "Servers" 
+		"command" "OpenServerBrowser"
+		"subimage" ""
+		"OnlyAtMenu" "0"
+	} 
 	"AdvancedSettingsButton"
 	{
 		"label"			"Advanced Options" 
@@ -40,6 +23,7 @@
 		"subimage"		""
 		"OnlyAtMenu"	"0"
 	}
+
 	"ReplayBrowserButton"
 	{
 		"label" "Replays"
