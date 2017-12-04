@@ -15,7 +15,14 @@
 		"command" "OpenServerBrowser"
 		"subimage" ""
 		"OnlyAtMenu" "0"
-	} 
+	}
+	"SettingsButton"
+	{
+		"label"			"Options" 
+		"Command"		"OpenOptionsDialog"
+		"subimage"		""
+		"OnlyAtMenu"	"0"
+	}
 	"AdvancedSettingsButton"
 	{
 		"label"			"Advanced Options" 
