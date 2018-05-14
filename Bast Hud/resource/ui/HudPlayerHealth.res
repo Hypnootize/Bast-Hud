@@ -164,14 +164,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"999"
+		"xpos"			"9999"
 		"ypos"			"137"
 		"zpos"			"2"
 		"wide"			"27" 
 		"tall"			"28" 
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/health_bg"
+		"image"			""
 		//"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}
@@ -179,7 +179,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusHealthImageOverheal"
-		"xpos"			"999"
+		"xpos"			"9999"
 		"ypos"			"137"
 		"zpos"			"5"
 		"wide"			"27" 
@@ -187,7 +187,7 @@
 		"alpha"			"0" 
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/health_bg_overheal"
+		"image"			""
 		"scaleImage"	"1"
 	}	
 	"PlayerStatusHealthBonusImage"

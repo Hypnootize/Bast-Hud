@@ -17,30 +17,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-140"
-		"ypos"			"r55"
-		"zpos"			"1"
-		"wide"			"140"
-		"tall"			"55"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/Bas_blue"
-		"scaleImage"	"1"	
+		"xpos"			"9999"
 	}
 		
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
-		"xpos"			"c0"
-		"ypos"			"r55"
-		"zpos"			"1"
-		"wide"			"140"
-		"tall"			"55"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/Bas_red"
-		"scaleImage"	"1"	
+		"xpos"			"9999"
 	}
 	
 	"AllSideBG"
