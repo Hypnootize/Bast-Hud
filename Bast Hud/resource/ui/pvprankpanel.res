@@ -254,8 +254,8 @@
 			"fonts"
 			{
 				"0"		"Museo12"
-				"1"		"Museo12"
-				"2"		"Museo12"
+				"1"		"Museo10"
+				"2"		"Museo8"
 			}
 		}
 
@@ -288,8 +288,8 @@
 			"fonts"
 			{
 				"0"		"Museo12"
-				"1"		"Museo12"
-				"2"		"Museo12"
+				"1"		"Museo10"
+				"2"		"Museo8"
 			}
 
 			"colors"
@@ -390,7 +390,7 @@
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f-2"
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
@@ -398,6 +398,11 @@
 
 						"fgcolor_override"	"20 20 20 180"
 						"bgcolor_override"	"0 0 0 0"
+						
+						"if_mini"
+						{
+							"wide"			"f0"
+						}
 					}
 
 					"ContinuousProgressBar"
@@ -411,7 +416,12 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"0 221 255 255"
+						
+						"if_mini"
+						{
+							"fgcolor_override"	"CreditsGreen"
+						}
 					}
 
 					"Frame"
@@ -420,11 +430,16 @@
 						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"
+						
+						"if_mini"
+						{
+							"wide"			"f0"
+						}
 					}
 				}
 			}

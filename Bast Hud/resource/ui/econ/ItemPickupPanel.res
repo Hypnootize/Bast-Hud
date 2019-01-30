@@ -1,3 +1,5 @@
+#base "../../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/ItemPickupPanel.res"
 {
 	"item_pickup"
@@ -16,9 +18,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"32 32 32 255"
+		"infocus_bgcolor_override" "32 32 32 255"
+		"outoffocus_bgcolor_override" "32 32 32 255"
 
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"

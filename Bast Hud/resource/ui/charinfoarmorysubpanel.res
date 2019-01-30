@@ -1,3 +1,5 @@
+#base "../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
 	"armory_panel"
@@ -156,7 +158,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-		"border"		"StorePreviewBorder"
+		"border"		"GrayDialogBorder"
 
 		"Data_TextRichText"
 		{
@@ -298,6 +300,17 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"border_default"	"bastBorder"
+		"border_armed"		"bastBorder2"
+		
+		"defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 120"
+		"armedBgColor_override" "10 10 10 120"
+		"depressedBgColor_override" "10 10 10 120"
 	}		
 	
 	"CurPageLabel"
@@ -341,6 +354,17 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"border_default"	"bastBorder"
+		"border_armed"		"bastBorder2"
+		
+		"defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 120"
+		"armedBgColor_override" "10 10 10 120"
+		"depressedBgColor_override" "10 10 10 120"
 	}	
 		
 	"WikiButton"
@@ -366,6 +390,17 @@
 		"Command"		"wiki"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"border_default"	"bastBorder"
+		"border_armed"		"bastBorder2"
+		
+		"defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 120"
+		"armedBgColor_override" "10 10 10 120"
+		"depressedBgColor_override" "10 10 10 120"
 	}		
 	
 	"ViewSetButton"
@@ -391,6 +426,17 @@
 		"Command"		"viewset"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"border_default"	"bastBorder"
+		"border_armed"		"bastBorder2"
+		
+		"defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 120"
+		"armedBgColor_override" "10 10 10 120"
+		"depressedBgColor_override" "10 10 10 120"
 	}		
 	
 	"StoreButton"
@@ -415,30 +461,16 @@
 		"Command"		"openstore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
-	"ReloadSchemeButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"c-180"
-		"ypos"			"345"
-		"zpos"			"25"
-		"wide"			"100"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"border_default"	"bastBorder"
+		"border_armed"		"bastBorder2"
+		
+		"defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 120"
+		"armedBgColor_override" "10 10 10 120"
+		"depressedBgColor_override" "10 10 10 120"
 	}
 }

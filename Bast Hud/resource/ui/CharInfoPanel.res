@@ -1,3 +1,5 @@
+#base "../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/CharInfoPanel.res"
 {
 	"character_info"
@@ -159,7 +161,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
+		"labelText"		"(&Q) BACK"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -168,15 +170,15 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"bastBorder"
-			"border_armed"		"bastBorder2"
+		"border_default"	"bastBorder"
+		"border_armed"		"bastBorder2"
 			
-			"defaultFgColor_override" "0 221 255 255"
-			"armedFgColor_override" "0 221 255 255"
-			"depressedFgColor_override" "0 221 255 255"
-			"defaultBgColor_override" "30 30 30 255"
-			"armedBgColor_override" "30 30 30 255"
-			"depressedBgColor_override" "30 30 30 255"
+		"defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "30 30 30 255"
+		"armedBgColor_override" "30 30 30 255"
+		"depressedBgColor_override" "30 30 30 255"
 	}		
 	
 	"NotificationsPresentPanel"

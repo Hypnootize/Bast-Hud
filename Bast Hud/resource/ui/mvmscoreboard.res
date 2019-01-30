@@ -26,7 +26,7 @@
 		"ypos"			"r190"
 		"wide"			"178"
 		"tall"			"15"
-		"fgcolor"		"32 32 32 240"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"DifficultyContainer"
@@ -94,9 +94,9 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"c-294"
+		"xpos"			"c-265"
 		"ypos"			"r394"
-		"wide"			"400"
+		"wide"			"530"
 		"tall"			"171"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -111,8 +111,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-100"
+		"ypos"			"250"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -129,7 +129,7 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
-			"en0bled"		"1"
+			"enabled"		"0"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"22"				// pixels inside the image
@@ -146,7 +146,7 @@
 			"font"			"Default"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
-			"xpos"			"8"
+			"xpos"			"0"
 			"ypos"			"8"
 			"wide"			"200"
 			"fgcolor"		"Blank"
@@ -167,8 +167,8 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"c108"
-			"ypos"			"r307"
+			"xpos"			"c-100"
+			"ypos"			"r391"
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"
@@ -189,8 +189,8 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"c198"
-			"ypos"			"r306"
+			"xpos"			"c-10"
+			"ypos"			"r390"
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"

@@ -188,19 +188,35 @@
 		"scaleImage"	"1"
 	}
 	
+	"KillAnchor"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"KillAnchor"
+		"xpos"						"-3"
+		"ypos"						"30"
+		"wide"						"8"
+		"tall"						"8"
+		"visible"					"1"
+		"enabled"					"1"
+	}
+	
 	"KillStreakIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"KillStreakIcon"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"
+		"ControlName"				"ImagePanel"
+		"fieldName"					"KillStreakIcon"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"12"
+		"wide"						"11"
+		"tall"						"11"
+		"visible"					"0"
+		"enabled"					"1"
+		"image"						"../hud/leaderboard_streak"
+		"scaleImage"				"1"
+		
+		"pin_to_sibling" 			"KillAnchor"
+		"pin_corner_to_sibling" 	"1"
+		"pin_to_sibling_corner" 	"1"
 	}
 	
 	"MoveableSubPanel"

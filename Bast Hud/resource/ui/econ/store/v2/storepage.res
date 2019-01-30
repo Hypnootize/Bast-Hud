@@ -40,9 +40,9 @@
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"0"
 		
-		"item_panel_bgcolor"			"32 32 32 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"			"40 40 40 255"
+		"item_panel_bgcolor_mouseover"	"35 35 35 255"
+		"item_panel_bgcolor_selected"	"50 50 50 255"
 		
 		"classicon_xdelta"		"5"
 

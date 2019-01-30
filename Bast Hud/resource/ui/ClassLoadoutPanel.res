@@ -1,3 +1,5 @@
+#base "../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"class_loadout_panel"
@@ -136,7 +138,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "0 221 255 255"
+		"fgcolor_override" "White"
 	}
 	"TauntCaratLabel"
 	{

@@ -44,9 +44,9 @@
 
 		"item_backdrop_zpos"				"1"
 		
-		"item_panel_bgcolor"			"32 32 32 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"			"40 40 40 255"
+		"item_panel_bgcolor_mouseover"	"35 35 35 255"
+		"item_panel_bgcolor_selected"	"50 50 50 255"
 		
 		"classicon_xdelta"		"5"
 
@@ -375,14 +375,14 @@
 		
 		"border_default"    "bastBorder"
         "border_armed"          "bastBorder2"
-                       
+		
         "defaultFgColor_override" "0 221 255 255"
-                        "armedFgColor_override" "0 221 255 255"
-                        "depressedFgColor_override" "0 221 255 255"
-                        "defaultBgColor_override" "10 10 10 120"
-                        "armedBgColor_override" "10 10 10 120"
-                        "depressedBgColor_override" "10 10 10 120"
-        }
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 255"
+		"armedBgColor_override" "10 10 10 255"
+		"depressedBgColor_override" "10 10 10 255"
+	}
 	
 	"CurPageLabel"
 	{
@@ -430,14 +430,14 @@
 		
 		"border_default"    "bastBorder"
         "border_armed"          "bastBorder2"
-                       
+		
         "defaultFgColor_override" "0 221 255 255"
-                        "armedFgColor_override" "0 221 255 255"
-                        "depressedFgColor_override" "0 221 255 255"
-                        "defaultBgColor_override" "10 10 10 120"
-                        "armedBgColor_override" "10 10 10 120"
-                        "depressedBgColor_override" "10 10 10 120"
-        }
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 255"
+		"armedBgColor_override" "10 10 10 255"
+		"depressedBgColor_override" "10 10 10 255"
+	}
 	
 	"BackpackSpaceLabel"
 	{
@@ -481,14 +481,14 @@
 		
 		"border_default"    "bastBorder"
         "border_armed"          "bastBorder2"
-                       
+		
         "defaultFgColor_override" "0 221 255 255"
-                        "armedFgColor_override" "0 221 255 255"
-                        "depressedFgColor_override" "0 221 255 255"
-                        "defaultBgColor_override" "10 10 10 120"
-                        "armedBgColor_override" "10 10 10 120"
-                        "depressedBgColor_override" "10 10 10 120"
-        }
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 255"
+		"armedBgColor_override" "10 10 10 255"
+		"depressedBgColor_override" "10 10 10 255"
+	}
 	
 	"CartImage"
 	{
@@ -506,14 +506,14 @@
 		
 		"border_default"    "bastBorder"
         "border_armed"          "bastBorder2"
-                       
+		
         "defaultFgColor_override" "0 221 255 255"
-                        "armedFgColor_override" "0 221 255 255"
-                        "depressedFgColor_override" "0 221 255 255"
-                        "defaultBgColor_override" "10 10 10 120"
-                        "armedBgColor_override" "10 10 10 120"
-                        "depressedBgColor_override" "10 10 10 120"
-        }
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 255"
+		"armedBgColor_override" "10 10 10 255"
+		"depressedBgColor_override" "10 10 10 255"
+	}
 
 	"BrowseTheStoreButton"
 	{
@@ -541,16 +541,16 @@
 		
 		"border_default"    "bastBorder"
         "border_armed"          "bastBorder2"
-                       
+		
         "defaultFgColor_override" "0 221 255 255"
-                        "armedFgColor_override" "0 221 255 255"
-                        "depressedFgColor_override" "0 221 255 255"
-                        "defaultBgColor_override" "10 10 10 255"
-                        "armedBgColor_override" "10 10 10 255"
-                        "depressedBgColor_override" "10 10 10 255"
-        }
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 255"
+		"armedBgColor_override" "10 10 10 255"
+		"depressedBgColor_override" "10 10 10 255"
+	}
         
-        "MarketPlaceButton"
+	"MarketPlaceButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MarketPlaceButton"
@@ -573,6 +573,16 @@
 		"Command"		"marketplace"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"    "bastBorder"
+        "border_armed"          "bastBorder2"
+		
+        "defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 255"
+		"armedBgColor_override" "10 10 10 255"
+		"depressedBgColor_override" "10 10 10 255"
 	}
 	
 	"TitleLabel"

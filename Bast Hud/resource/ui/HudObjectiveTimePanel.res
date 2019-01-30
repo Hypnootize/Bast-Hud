@@ -87,11 +87,6 @@
 		"wrap"			"0"
 		"font"			"Museo12"
 		"fgcolor"			"234 234 234 255"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -105,12 +100,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
+		"scaleImage"		"1"
 	}
 	"OvertimeLabel"
 	{
@@ -130,11 +120,6 @@
 		"wrap"			"0"
 		"font"			"Museo10"
 		"fgcolor"			"234 234 234 255"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}			
 	"OvertimeBG"
 	{
@@ -148,12 +133,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
+		"scaleImage"		"1"
 	}
 	"SuddenDeathLabel"
 	{
@@ -173,11 +153,6 @@
 		"wrap"			"0"
 		"font"			"Museo10"
 		"fgcolor"			"234 234 234 255"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -191,12 +166,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
+		"scaleImage"		"1"
 	}	
 	"SetupLabel"
 	{
@@ -216,11 +186,6 @@
 		"wrap"			"0"
 		"font"			"Museo10"
 		"fgcolor"			"234 234 234 255"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}	
 	"SetupBG"
 	{
@@ -241,11 +206,6 @@
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -265,11 +225,6 @@
 		"wrap"			"0"
 		"font"			"Museo14"
 		"fgcolor"		"234 234 234 255"
-		
-		if_match
-		{
-			
-		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -290,10 +245,5 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 		"fillcolor"	"234 234 234 255"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}	
 }

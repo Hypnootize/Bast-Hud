@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"0 0 0 0"
-		"infocus_bgcolor_override"		"0 0 0 0"
-		"outoffocus_bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"				"32 32 32 255"
+		"infocus_bgcolor_override"		"32 32 32 255"
+		"outoffocus_bgcolor_override"	"32 32 32 255"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
@@ -25,7 +25,7 @@
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"43 43 43 255"
+		"titlebarbgcolor_override"				"46 43 42 255"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -94,7 +94,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SeparatorLine"
-				"xpos"			"0"
+				"xpos"			"9999"
 				"ypos"			"58"
 				"zpos"			"5"
 				"wide"			"580"
@@ -132,15 +132,15 @@
 				"paintbackground"	"1"
 		
 				"border_default"    "bastBorder"
-                        "border_armed"          "bastBorder2"
-                       
-                        "defaultFgColor_override" "0 221 255 255"
-                        "armedFgColor_override" "0 221 255 255"
-                        "depressedFgColor_override" "0 221 255 255"
-                        "defaultBgColor_override" "10 10 10 120"
-                        "armedBgColor_override" "10 10 10 120"
-                        "depressedBgColor_override" "10 10 10 120"
-        }
+				"border_armed"          "bastBorder2"
+				
+				"defaultFgColor_override" "0 221 255 255"
+				"armedFgColor_override" "0 221 255 255"
+				"depressedFgColor_override" "0 221 255 255"
+				"defaultBgColor_override" "10 10 10 255"
+				"armedBgColor_override" "10 10 10 255"
+				"depressedBgColor_override" "10 10 10 255"
+			}	
 			
 			"PriceLabel"
 			{
@@ -171,29 +171,28 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"55"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
+		"paintbackground"	"1"
+		"fillcolor" "30 30 30 255"
 		"tileImage"		"1"
-	}				
-	"BackgroundHeaderCustom"
+	}
+	"BackgroundHeader2"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundHeader2"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-10"
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"2"
-		"border"				"NoBorder"
-		"bgcolor_override"		"32 32 32 255"
-	}
+		"paintbackground"	"1"
+		"fillcolor" "0 0 0 255"
+		"tileImage"		"1"
+	}		
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -203,38 +202,37 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-	}
-	"BackgroundFooterCustom"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundFooter2"
-		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"162"
 		"visible"		"1"
 		"enabled"		"1"
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"2"
-		"border"				"NoBorder"
-		"bgcolor_override"		"32 32 32 255"
-	}			
+		"paintbackground"	"1"
+		"fillcolor" "30 30 30 255"
+		"tileImage"		"1"
+	}				
+	"BackgroundFooter2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter2"
+		"xpos"			"0"
+		"ypos"			"430"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"fillcolor" "0 0 0 255"
+		"tileImage"		"1"
+	}				
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterLine"
-		"xpos"			"0"
-		"ypos"			"420"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
@@ -248,18 +246,18 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"				"BasDarker"
+		"bgcolor_override"				"32 32 32 255"
 		
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
-			"xpos"			"0"
+			"xpos"			"9999"
 			"ypos"			"0"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
@@ -292,7 +290,7 @@
 			"zpos"			"5"
 			"wide"			"600"
 			"tall"			"5"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"tileImage"		"1"
@@ -302,7 +300,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"EmptyCartLabel"
-			"font"			"HudFontMediumBig"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#Store_CartIsEmpty"
 			"textAlignment"	"center"
 			"xpos"			"c-300"
@@ -325,22 +323,21 @@
 			"zpos"			"5"
 			"wide"			"600"
 			"tall"			"240"
-			"PaintBackgroundType"	"0"
-			"fgcolor_override"	"BasWhite"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
-			"bgcolor_override"	"BasDark"
+			"PaintBackgroundType"	"2"
+			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
+			"bgcolor_override"	"32 32 32 255"
 			"autohide_buttons" "1"
 			
 			"Scrollbar"
 			{
 				"xpos"			"586"
-				"ypos"			"5"
 				"wide"			"11"
-				"tall"			"230"
+				"tall"			"240"
 				"zpos"			"1000"
 				
 				"Slider"
 				{
-					"PaintBackgroundType"	"0"
+					"PaintBackgroundType"	"2"
 				}
 				
 				"nobuttons"		"1"
@@ -414,7 +411,6 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "BasWhite"
 					}
 					"WashingtonStateSalesTaxLabel"
 					{
@@ -457,7 +453,7 @@
 					{
 						"ControlName"	"Label"
 						"fieldname"		"TotalPriceLabel"
-						"font"			"HudFontMediumBig"
+						"font"			"FontCartPrice"
 						"textAlignment"	"east"
 						"xpos"			"475"
 						"ypos"			"0"
@@ -469,7 +465,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "BasWhite"
+						"fgcolor_override" "130 120 104 255"
 					}
 					
 				}
@@ -504,15 +500,15 @@
 		"paintbackground"	"1"
 		
 		"border_default"    "bastBorder"
-                        "border_armed"          "bastBorder2"
-                       
-                        "defaultFgColor_override" "0 221 255 255"
-                        "armedFgColor_override" "0 221 255 255"
-                        "depressedFgColor_override" "0 221 255 255"
-                        "defaultBgColor_override" "10 10 10 120"
-                        "armedBgColor_override" "10 10 10 120"
-                        "depressedBgColor_override" "10 10 10 120"
-        }	
+        "border_armed"          "bastBorder2"
+		
+        "defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 255"
+		"armedBgColor_override" "10 10 10 255"
+		"depressedBgColor_override" "10 10 10 255"
+	}		
 	
 	"CheckoutButton"
 	{
@@ -541,14 +537,14 @@
 		"paintbackground"	"1"
 		
 		"border_default"    "bastBorder"
-                        "border_armed"          "bastBorder2"
-                       
-                        "defaultFgColor_override" "0 221 255 255"
-                        "armedFgColor_override" "0 221 255 255"
-                        "depressedFgColor_override" "0 221 255 255"
-                        "defaultBgColor_override" "10 10 10 120"
-                        "armedBgColor_override" "10 10 10 120"
-                        "depressedBgColor_override" "10 10 10 120"
-        }
+        "border_armed"          "bastBorder2"
+		
+        "defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 255"
+		"armedBgColor_override" "10 10 10 255"
+		"depressedBgColor_override" "10 10 10 255"
+	}
 	
 }

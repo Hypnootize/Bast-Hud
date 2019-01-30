@@ -1,3 +1,5 @@
+#base "../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/ItemSelectionPanel.res"
 {
 	"ItemSelectionPanel"
@@ -15,7 +17,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"32 32 32 255"
 		
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
@@ -91,7 +93,7 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
+		"xpos"			"99999"
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"20"
@@ -100,7 +102,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "0 221 255 255"
 	}
 	"ClassLabel"
 	{
@@ -157,7 +159,7 @@
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"bgcolor_override"	"white"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
@@ -166,7 +168,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TopLine"
-		"xpos"			"c-305"
+		"xpos"			"99999"
 		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"610"
@@ -181,7 +183,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BottomLine"
-		"xpos"			"c-305"
+		"xpos"			"99999"
 		"ypos"			"330"
 		"zpos"			"2"
 		"wide"			"610"
@@ -227,7 +229,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "0 221 255 255"
 	}
 	
 	"CancelButton"
@@ -252,6 +254,17 @@
 		"Command"		"vguicancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"border_default"	"bastBorder"
+		"border_armed"		"bastBorder2"
+		
+		"defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 120"
+		"armedBgColor_override" "10 10 10 120"
+		"depressedBgColor_override" "10 10 10 120"
 	}
 	
 	"OnlyAllowUniqueQuality"
@@ -297,6 +310,17 @@
 		"Command"		"show_backpack"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"border_default"	"bastBorder"
+		"border_armed"		"bastBorder2"
+		
+		"defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 120"
+		"armedBgColor_override" "10 10 10 120"
+		"depressedBgColor_override" "10 10 10 120"
 	}
 	"ShowSelection"
 	{
@@ -321,6 +345,17 @@
 		"Command"		"show_selection"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"border_default"	"bastBorder"
+		"border_armed"		"bastBorder2"
+		
+		"defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 120"
+		"armedBgColor_override" "10 10 10 120"
+		"depressedBgColor_override" "10 10 10 120"
 	}
 	
 	"PrevPageButton"
@@ -345,6 +380,17 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"border_default"	"bastBorder"
+		"border_armed"		"bastBorder2"
+		
+		"defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 120"
+		"armedBgColor_override" "10 10 10 120"
+		"depressedBgColor_override" "10 10 10 120"
 	}		
 	
 	"CurPageLabel"
@@ -363,7 +409,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
 	
 	"NextPageButton"
@@ -388,6 +434,17 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"border_default"	"bastBorder"
+		"border_armed"		"bastBorder2"
+		
+		"defaultFgColor_override" "0 221 255 255"
+		"armedFgColor_override" "0 221 255 255"
+		"depressedFgColor_override" "0 221 255 255"
+		"defaultBgColor_override" "10 10 10 120"
+		"armedBgColor_override" "10 10 10 120"
+		"depressedBgColor_override" "10 10 10 120"
 	}		
 	
 	"mouseoveritempanel"

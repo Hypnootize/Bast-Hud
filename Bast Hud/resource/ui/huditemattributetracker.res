@@ -7,7 +7,7 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f5"
+		"wide"			"f0"
 		"tall"			"f0"
 		"PaintBackgroundType"	"0"
 
@@ -18,13 +18,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestsStatusContainer"
-		"xpos"			"rs1"
+		"xpos"			"rs1-10"
 		"ypos"			"120"
 		"wide"			"110"
 		"tall"			"20"
 		"proportionaltoparent"	"1"
 
-		"border"	"QuestStatusBorder"
+		"border"	"NoBorder"
 		"paintborder"	"2"
 		
 		"Header"
@@ -38,7 +38,7 @@
 			"tall"			"18"
 			"zpos"			"4"
 			"textinsetx"	"5"
-			"fgcolor_override"		"235 226 202 255"
+			"fgcolor_override"		"255 255 255 255"
 			"font"			"AchievementTracker_Name"
 			//"wrap"			"1"
 			"TextAlignment"		"north-east"
@@ -56,7 +56,7 @@
 			"tall"			"f0"
 			"zpos"			"4"
 			"textinsetx"	"5"
-			"fgcolor_override"		"235 226 202 255"
+			"fgcolor_override"		"255 255 255 255"
 			"font"			"QuestObjectiveTracker_Desc"
 			//"wrap"			"1"
 			"TextAlignment"		"north-east"
@@ -67,7 +67,7 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"Image"
-			"xpos"			"4"
+			"xpos"			"9999"
 			"ypos"			"cs-0.5"
 			"zpos"			"0"
 			"wide"			"o1"

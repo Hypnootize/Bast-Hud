@@ -186,26 +186,6 @@
 			"tall"			"171"
 		}
 	}
-	"MvMBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMBG"
-		"xpos"			"c111"
-		"ypos"			"r394"
-		"zpos"			"-1"
-		"wide"			"185"
-		"tall"			"171"
-		"fillcolor"		"0 0 0 200"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"			"1"
-		}
-	}
 	"BlueScoreBGShade"
 	{
 		"ControlName"	"ImagePanel"
@@ -508,11 +488,11 @@
              "fillcolor"		"0 0 0 200"
 			"xpos"			"c-295"
 			"ypos"			"r394"
-			"wide"			"402"
+			"wide"			"590"
 			"tall"			"171"
 			"xpos_minmode"			"c-295"
 			"ypos_minmode"			"r394"
-			"wide_minmode"			"402"
+			"wide_minmode"			"590"
 			"tall_minmode"			"171"
 		}
 	}

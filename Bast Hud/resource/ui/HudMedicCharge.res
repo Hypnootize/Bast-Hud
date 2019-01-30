@@ -286,7 +286,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ResistIconAnchor"
 		"xpos"				"c0"
-		"ypos"				"28"
+		"ypos"				"22"
 		"wide"				"10"
 		"tall"				"10"
 		"visible"			"1"
