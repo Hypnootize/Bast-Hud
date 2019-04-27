@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudTournament"
-				
+		
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
@@ -231,7 +231,7 @@
 
 	"HudTournamentBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"c-125"
 		"ypos"			"21"
@@ -239,14 +239,14 @@
 		"wide"			"0"
 		"tall"			"17"
 		"fillcolor"		"0 0 0 100"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		
 		if_competitive
 		{
-			"visible"	"0"
+			"wide"	"0"
 		}
 		if_readymode
 		{
@@ -254,7 +254,7 @@
 		}
 		if_mvm
 		{
-			"visible"		"0"
+			"wide"	"0"
 		}
 	}
 	"TournamentLabel"
