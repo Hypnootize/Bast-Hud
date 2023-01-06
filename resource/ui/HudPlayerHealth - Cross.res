@@ -18,28 +18,6 @@
 		"HealthDeathWarningColor"	"225 65 0 255"
 	}
 
-	"mainBackground"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"mainBackground"
-		"xpos"		"0"
-		"ypos"		"10"
-		"zpos"		"2"
-		"wide"		"250"
-		"tall"		"250"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hud_test"
-		
-		"src_corner_height"	"0"
-		"src_corner_width"	"0"
-		"draw_corner_width"	"0"	
-		"draw_corner_height" "0"	
-		"scaleImage"		"1"
-	}
-	
 	"HpCross_Vertical"
 	{
 		"ControlName"	"ImagePanel"
