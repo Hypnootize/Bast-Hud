@@ -1,19 +1,15 @@
-# Bast Hud
+<div align="center">
 
+# bastHUD
+### b4stian
 
-<a>LINKS</a>
-====
+**[SCREENSHOTS](../screenshots/showcase.md)** -
+**[INSTALLATION](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/installation/windows_install.md)** -
+**[CONTRIBUTING](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/contributing/github_contributing.md)** -
+**[ORIGINAL REPO](https://github.com/basbanaan/bastHUD)**
 
-[TeamFortress.tv](https://www.teamfortress.tv/33738/ive-updated-some-huds)
-
-[Screenshot Album](https://imgur.com/a/gDjCp)
-
-[Changelogs](https://github.com/Hypnootize/Bast-Hud/commits/master)
-
-[Installation](https://imgur.com/a/w3Ah6)
-
-![](https://i.imgur.com/cf1MhCG.jpg)
-
-<a>CREDITS</a>
-====
-**Created By:** B4stian
+![Main Menu](../screenshots/01_Main_Menu.jpg)
+![Health Buff](../screenshots/10_Health_Buff.jpg)
+![Health & Ammo Low](../screenshots/11_Health_Ammo_Low.jpg)
+![Scoreboard](../screenshots/14_Scoreboard.jpg)
+![Win & Damage](../screenshots/18_Win.jpg)
