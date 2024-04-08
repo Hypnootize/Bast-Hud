@@ -37,7 +37,7 @@
 ![Ubercharge](../screenshots/12_Ubercharge.jpg?raw=true)
 
 ## ITEM METERS
-![Item Meters](../screenshots/13_Item_meters.jpg?raw=true)
+![Item Meters](../screenshots/13_Item_Meters.jpg?raw=true)
 
 ## SCOREBOARD
 ![Scoreboard](../screenshots/14_Scoreboard.jpg?raw=true)
