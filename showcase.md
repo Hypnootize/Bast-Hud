@@ -37,13 +37,13 @@
 ![Ubercharge](../screenshots/12_Ubercharge.jpg?raw=true)
 
 ## ITEM METERS
-![Item Meters](../screenshots/13_Item_Meters.jpg?raw=true)
+![Item Meters](../screenshots/13_Item_meters.jpg?raw=true)
 
 ## SCOREBOARD
 ![Scoreboard](../screenshots/14_Scoreboard.jpg?raw=true)
 
 ## SCOREBOARD 6VS6
-![Scoreboard 6v6](../screenshots/15_Scoboard_6v6.jpg?raw=true)
+![Scoreboard 6v6](../screenshots/15_Scoreboard_6v6.jpg?raw=true)
 
 ## SPY DISGUISE
 ![Disguise](../screenshots/16_Disguise.jpg?raw=true)
